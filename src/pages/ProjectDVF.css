@@ -1,22 +1,22 @@
 .dvf-page {
 
   max-width: 1100px;
-
   margin: auto;
-
-  padding: 40px 20px;
+  padding: 50px 20px;
 
   color: #222;
 
 }
 
 
-/* HEADER */
+/* =========================
+   HEADER
+========================= */
+
 
 .dvf-header {
 
   text-align: center;
-
   margin-bottom: 60px;
 
 }
@@ -25,7 +25,6 @@
 .dvf-cover {
 
   width: 100%;
-
   max-height: 420px;
 
   object-fit: cover;
@@ -37,11 +36,9 @@
 }
 
 
-
 .dvf-header h1 {
 
   font-size: 2.8rem;
-
   margin-bottom: 15px;
 
 }
@@ -50,11 +47,9 @@
 .subtitle {
 
   font-size: 1.3rem;
-
   color: #666;
 
 }
-
 
 
 .dvf-header p {
@@ -71,9 +66,10 @@
 
 
 
+/* =========================
+   CARTES GENERALES
+========================= */
 
-
-/* CARTES */
 
 .dvf-card {
 
@@ -90,17 +86,13 @@
 }
 
 
-
 .dvf-card h2 {
-
-  margin-top: 0;
-
-  margin-bottom: 25px;
 
   font-size: 1.8rem;
 
-}
+  margin-bottom: 25px;
 
+}
 
 
 .dvf-card p {
@@ -111,9 +103,10 @@
 
 
 
+/* =========================
+   METHODOLOGIE
+========================= */
 
-
-/* METHODOLOGIE */
 
 .steps {
 
@@ -126,7 +119,6 @@
   flex-wrap: wrap;
 
 }
-
 
 
 .steps span {
@@ -147,277 +139,245 @@
 
 
 
+/* =========================
+   CHIFFRES CLES
+========================= */
 
-
-/* RESULTATS */
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-}
-
-
-.gallery img {
-
-  width: 100%;
-  max-width: 100%;
-
-  height: 300px;
-
-  object-fit: contain;
-
-  background: #fafafa;
-
-  border-radius: 15px;
-
-  border: 1px solid #ddd;
-
-}
-
-
-.gallery p {
-
-  margin-top: -15px;
-  margin-bottom: 30px;
-
-  color: #555;
-  line-height: 1.6;
-
-}
-
-@media(max-width:800px){
-
-  .gallery {
-
-    grid-template-columns: 1fr;
-
-  }
-
-
-  .gallery img {
-
-    height: 250px;
-
-  }
-
-}
-
-
-
-/* TECHNOLOGIES */
-
-.tech {
-
-  display: flex;
-
-  flex-wrap: wrap;
-
-  justify-content: center;
-
-  gap: 15px;
-
-}
-
-
-
-.tech span {
-
-  background: #f1f1f1;
-
-  padding: 10px 18px;
-
-  border-radius: 20px;
-
-  border: 1px solid #ddd;
-
-}
-
-
-
-
-
-/* CHIFFRES CLES */
 
 .stats {
 
   display: grid;
 
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4,1fr);
 
   gap: 20px;
 
-  margin: 40px 0;
-
 }
-
 
 
 .stat-card {
 
-  background: white;
+  background:white;
 
-  border: 1px solid #ddd;
+  border:1px solid #ddd;
 
-  border-radius: 15px;
+  border-radius:15px;
 
-  padding: 25px;
+  padding:25px;
 
-  text-align: center;
+  text-align:center;
 
 }
-
 
 
 .stat-card h3 {
 
-  font-size: 2rem;
+  font-size:2rem;
 
-  margin: 0 0 10px;
+  margin-bottom:10px;
 
 }
-
 
 
 .stat-card p {
 
-  color: #666;
-
-  margin: 0;
+  color:#666;
 
 }
 
 
 
+/* =========================
+   ARCHITECTURE
+========================= */
 
-
-/* ARCHITECTURE */
 
 .architecture {
 
-  display: flex;
+  display:flex;
 
-  justify-content: space-between;
+  gap:20px;
 
-  gap: 20px;
-
-  flex-wrap: wrap;
+  flex-wrap:wrap;
 
 }
-
 
 
 .architecture div {
 
-  flex: 1;
+  flex:1;
 
-  min-width: 180px;
+  min-width:180px;
 
-  padding: 25px;
+  padding:25px;
 
-  background: #f7f7f7;
+  background:#f7f7f7;
 
-  border-radius: 15px;
+  border-radius:15px;
 
-  text-align: center;
+  text-align:center;
 
 }
-
 
 
 .architecture strong {
 
-  display: block;
+  display:block;
 
-  font-size: 1.2rem;
-
-  margin-bottom: 10px;
+  margin-bottom:10px;
 
 }
 
 
 
-.architecture p {
+/* =========================
+   GRAPHIQUES DVF
+========================= */
 
-  color: #666;
 
-  font-size: 0.95rem;
+.gallery {
+
+  display:grid;
+
+  grid-template-columns:repeat(2,1fr);
+
+  gap:30px;
+
+  align-items:start;
+
+}
+
+
+.gallery img {
+
+  width:100%;
+
+  height:350px;
+
+  object-fit:contain;
+
+  background:#fafafa;
+
+  border:1px solid #ddd;
+
+  border-radius:15px;
+
+  padding:10px;
 
 }
 
 
 
+.gallery p {
+
+  color:#555;
+
+  line-height:1.6;
+
+}
 
 
-/* CONCLUSION */
+
+/* =========================
+   TECHNOLOGIES
+========================= */
+
+
+.tech {
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:15px;
+
+}
+
+
+.tech span {
+
+  background:#f1f1f1;
+
+  padding:10px 18px;
+
+  border-radius:20px;
+
+}
+
+
+
+/* =========================
+   CONCLUSION
+========================= */
+
 
 .conclusion p {
 
-  line-height: 1.8;
+  line-height:1.8;
 
-  font-size: 1.05rem;
+  font-size:1.05rem;
 
 }
 
 
 
+/* =========================
+   BOUTONS
+========================= */
 
-
-/* RESSOURCES */
 
 .resource-buttons {
 
-  display: flex;
+  display:flex;
 
-  gap: 20px;
+  gap:20px;
 
-  flex-wrap: wrap;
+  flex-wrap:wrap;
 
 }
-
 
 
 .resource-button {
 
-  padding: 14px 25px;
+  padding:14px 25px;
 
-  background: #222;
+  background:#222;
 
-  color: white;
+  color:white;
 
-  text-decoration: none;
+  text-decoration:none;
 
-  border-radius: 10px;
+  border-radius:10px;
 
 }
-
 
 
 .resource-button:hover {
 
-  background: #444;
+  background:#444;
 
 }
 
 
 
+/* =========================
+   RESPONSIVE
+========================= */
 
 
-/* RESPONSIVE */
+@media(max-width:900px){
 
-@media(max-width:900px) {
+
+  .stats {
+
+    grid-template-columns:repeat(2,1fr);
+
+  }
 
 
   .gallery {
 
-    grid-template-columns: 1fr;
-
-  }
-
-
-  .stats {
-
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:1fr;
 
   }
 
@@ -426,26 +386,26 @@
 
 
 
-@media(max-width:600px) {
-
-
-  .dvf-header h1 {
-
-    font-size: 2rem;
-
-  }
+@media(max-width:500px){
 
 
   .stats {
 
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr;
 
   }
 
 
-  .steps span {
+  .dvf-header h1 {
 
-    min-width: 100%;
+    font-size:2rem;
+
+  }
+
+
+  .dvf-card {
+
+    padding:25px;
 
   }
 
