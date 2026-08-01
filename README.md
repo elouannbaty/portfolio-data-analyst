@@ -1,16 +1,90 @@
-# React + Vite
+# Elouann BATY — Portfolio Data Analyst
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon portfolio dédié à l'analyse de données, aux statistiques et à la programmation Python.
 
-Currently, two official plugins are available:
+Ce projet présente mes travaux personnels dans le domaine de la data, avec notamment une analyse complète du marché immobilier français à partir des données publiques DVF.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Projet principal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Analyse du marché immobilier français — Données DVF 2021-2025
 
-## Expanding the ESLint configuration
+Analyse de près de **6 millions de transactions immobilières françaises** afin d'étudier :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- l'évolution des prix immobiliers ;
+- les disparités territoriales ;
+- les caractéristiques des biens ;
+- les facteurs influençant les prix ;
+- la modélisation prédictive.
+
+### Résultats principaux
+
+Le projet comprend :
+
+- nettoyage et préparation des données ;
+- analyse statistique exploratoire ;
+- création de visualisations ;
+- analyses géographiques ;
+- modèles prédictifs.
+
+---
+
+# Technologies utilisées
+
+## Data
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Statistiques
+
+## Base de données
+
+- SQL
+
+## Développement
+
+- React
+- Vite
+- Git / GitHub
+
+---
+
+# Compétences
+
+- Analyse exploratoire de données
+- Nettoyage et transformation de données
+- Visualisation de données
+- Statistiques descriptives
+- Modélisation prédictive
+- Développement d'applications web data
+
+---
+
+# Structure du projet
+src/
+│
+├── assets/
+│ ├── documents/
+│ └── images/
+│
+├── components/
+│
+├── pages/
+│
+├── App.jsx
+└── main.jsx
+
+
+---
+
+# Contact
+
+**Elouann BATY**
+
+Portfolio : en cours de déploiement
+
+GitHub :
+https://github.com/elouannbaty
