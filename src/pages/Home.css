@@ -1,0 +1,108 @@
+.hero {
+
+  text-align: center;
+
+  padding: 90px 20px;
+
+}
+
+
+
+.hero h1 {
+
+  font-size: 3.2rem;
+
+  margin-bottom: 15px;
+
+}
+
+
+
+.hero h2 {
+
+  font-size: 1.4rem;
+
+  font-weight: normal;
+
+  color: #555;
+
+  margin-bottom: 25px;
+
+}
+
+
+
+.hero p {
+
+  max-width: 700px;
+
+  margin: auto;
+
+  line-height: 1.7;
+
+  font-size: 1.1rem;
+
+}
+
+
+
+.buttons {
+
+  margin-top: 35px;
+
+}
+
+
+
+.skills {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 15px;
+
+  max-width: 800px;
+
+  margin: auto;
+
+}
+
+
+
+.skills span {
+
+  background: #f1f1f1;
+
+  padding: 12px 22px;
+
+  border-radius: 25px;
+
+  font-size: 0.95rem;
+
+  border: 1px solid #ddd;
+
+}
+
+
+
+@media (max-width: 700px) {
+
+
+  .hero h1 {
+
+    font-size: 2.3rem;
+
+  }
+
+
+  .hero h2 {
+
+    font-size: 1.1rem;
+
+  }
+
+
+}
