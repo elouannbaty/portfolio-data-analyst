@@ -372,6 +372,98 @@ function ProjectCreditScoring() {
       </section>
 
 
+      {/* PERFORMANCE DES MODELES */}
+
+<section className="credit-card">
+
+  <h2>
+    Performance des modèles
+  </h2>
+
+  <p>
+    Trois modèles de classification ont été comparés afin
+    d'évaluer leur capacité à distinguer les profils Good
+    et Bad.
+  </p>
+
+  <div className="model-highlight">
+
+    <h3>
+      Meilleur modèle : Random Forest
+    </h3>
+
+    <p>
+      Le Random Forest obtient les meilleures performances
+      globales, avec une Accuracy de 72,18 %, un F1-score
+      de 74,34 % et une ROC-AUC de 79,24 %.
+    </p>
+
+  </div>
+
+
+  <div className="model-table">
+
+    <div className="model-row model-header">
+
+      <span>Modèle</span>
+      <span>Accuracy</span>
+      <span>Precision</span>
+      <span>Recall</span>
+      <span>F1-score</span>
+      <span>ROC-AUC</span>
+
+    </div>
+
+
+    <div className="model-row">
+
+      <span>Régression logistique</span>
+      <span>71,85 %</span>
+      <span>71,70 %</span>
+      <span>76,10 %</span>
+      <span>73,83 %</span>
+      <span>79,01 %</span>
+
+    </div>
+
+
+    <div className="model-row">
+
+      <span>Random Forest</span>
+      <span>72,18 %</span>
+      <span>71,68 %</span>
+      <span>77,20 %</span>
+      <span>74,34 %</span>
+      <span>79,24 %</span>
+
+    </div>
+
+
+    <div className="model-row">
+
+      <span>Gradient Boosting</span>
+      <span>71,94 %</span>
+      <span>71,86 %</span>
+      <span>76,01 %</span>
+      <span>73,88 %</span>
+      <span>78,71 %</span>
+
+    </div>
+
+  </div>
+
+
+  <p className="model-conclusion">
+
+    Les écarts entre les trois modèles restent relativement
+    faibles. Le Random Forest présente néanmoins le meilleur
+    compromis entre les différentes métriques étudiées.
+
+  </p>
+
+</section>
+
+
       {/* CONCLUSION */}
 
       <section className="credit-card conclusion">
