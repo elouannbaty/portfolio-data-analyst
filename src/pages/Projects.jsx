@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import dvfImage from "../assets/dvf.png";
-import creditScoringImage from "../assets/credit-scoring.png";
+import creditScoringImage from "../assets/credit_scoring.png";
 import "./Projects.css";
 
 
