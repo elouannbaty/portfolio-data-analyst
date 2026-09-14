@@ -5,10 +5,13 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import ProjectDVF from "./pages/ProjectDVF";
+import ProjectCreditScoring from "./pages/ProjectCreditScoring";
 import CV from "./pages/CV";
 import Contact from "./pages/Contact";
 
 import "./App.css";
+
+
 
 
 function App() {
@@ -40,6 +43,10 @@ function App() {
           element={<ProjectDVF />} 
         />
 
+        <Route 
+          path="/projet-credit-scoring" 
+          element={<ProjectCreditScoring />} 
+        />
 
         <Route 
           path="/cv" 
