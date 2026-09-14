@@ -8,22 +8,36 @@ function Projects() {
 
   const projects = [
 
-    {
-      title: "Analyse du marché immobilier français (DVF)",
-      description:
-        "Analyse de près de 6 millions de transactions immobilières françaises entre 2021 et 2025.",
-      image: dvfImage,
-      technologies: [
-        "Python",
-        "Pandas",
-        "SQL",
-        "Statistiques",
-        "Data Visualisation"
-      ],
-      link: "/projet-dvf"
-    }
+     {
+    title: "Analyse du marché immobilier français (DVF)",
+    description:
+      "Analyse de près de 6 millions de transactions immobilières françaises entre 2021 et 2025.",
+    image: dvfImage,
+    technologies: [
+      "Python",
+      "Pandas",
+      "SQL",
+      "Statistiques",
+      "Data Visualisation"
+    ],
+    link: "/projet-dvf"
+  },
+      {
+    title: "Credit scoring et classification du risque de crédit",
+    description:
+      "Analyse et classification du risque de crédit à partir du jeu de données HELOC et comparaison de modèles de classification.",
+    image: creditScoringImage,
+    technologies: [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Machine Learning",
+      "Data Visualisation"
+    ],
+    link: "https://github.com/elouannbaty/credit_scoring"
+  }
 
-  ];
+];
 
 
   return (
