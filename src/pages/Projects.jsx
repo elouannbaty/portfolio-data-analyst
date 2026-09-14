@@ -34,7 +34,7 @@ function Projects() {
       "Machine Learning",
       "Data Visualisation"
     ],
-    link: "https://github.com/elouannbaty/credit_scoring"
+    link: "/projet-credit-scoring"
   }
 
 ];
