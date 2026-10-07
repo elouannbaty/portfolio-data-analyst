@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import dvfImage from "../assets/dvf.png";
 import creditScoringImage from "../assets/credit_scoring.png";
+import marketAnalysisImage from "../assets/market_analysis.png";
 import "./Projects.css";
 
 
@@ -41,6 +42,7 @@ function Projects() {
   title: "Market Analysis IA",
   description:
     "Analyse de marché appliquée au secteur de la restauration à Nantes Métropole, combinant statistiques, analyse territoriale, NLP et intelligence artificielle locale.",
+  image: marketAnalysisImage,
   technologies: [
     "Python",
     "Pandas",
