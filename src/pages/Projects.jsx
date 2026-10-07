@@ -37,6 +37,20 @@ function Projects() {
     link: "/projet-credit-scoring"
   }
 
+    {
+  title: "Market Analysis IA",
+  description:
+    "Analyse de marché appliquée au secteur de la restauration à Nantes Métropole, combinant statistiques, analyse territoriale, NLP et intelligence artificielle locale.",
+  technologies: [
+    "Python",
+    "Pandas",
+    "Statistiques",
+    "NLP",
+    "LLM local"
+  ],
+  link: "/projet-market-analysis"
+}
+
 ];
 
 
