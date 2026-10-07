@@ -35,7 +35,7 @@ function Projects() {
       "Data Visualisation"
     ],
     link: "/projet-credit-scoring"
-  }
+  },
 
     {
   title: "Market Analysis IA",
