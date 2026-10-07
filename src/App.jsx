@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import ProjectDVF from "./pages/ProjectDVF";
 import ProjectCreditScoring from "./pages/ProjectCreditScoring";
+import ProjectMarketAnalysis from "./pages/ProjectMarketAnalysis";
 import CV from "./pages/CV";
 import Contact from "./pages/Contact";
 
@@ -46,6 +47,11 @@ function App() {
         <Route 
           path="/projet-credit-scoring" 
           element={<ProjectCreditScoring />} 
+        />
+
+        <Route 
+          path="/projet-market-analysis" 
+          element={<ProjectMarketAnalysis />} 
         />
 
         <Route 
